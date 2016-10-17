@@ -132,3 +132,42 @@
 	
 
 ```
+
+
+## 后话
+
+* 当然了，思路还有种基于mvc模式的！这里不在阐述！上面的代码用了纯js来写，代码相对来说变复杂和多了，如果用到相关库，可能很少的代码就能搞定，比如使用jquery，则代码相对少了很多，如下：
+
+``` javascript
+
+	(function($){
+
+	 	$(function(){
+
+	 		$("#navigation li").mouseover(function(){
+	 			var $index = $("#navigation li").index($(this));
+	 			$(this).addClass('active').siblings().removeClass('active');
+	 			$("#hide_block").css('display','block');
+	 			$("#hide_block .h_item").css('display','none').eq($index).css('display','block');
+	 		});
+
+
+	 		$("#NAV_wrapper").mouseout(function(){
+	 			$("#hide_block").css('display','none');
+	 			$("#hide_block .h_item").css('display','none');
+	 			$("#navigation li").removeClass('active');
+	 		});
+	 		$("#hide_block").mouseover(function(){
+	 			var $child = $("#hide_block").children(".h_item");
+	 			var $index = $("#hide_block .h_item").index($child);
+	 			$("#hide_block .h_item").css('display','none').eq($index).css('display','block');
+	 			$("#navigation li").removeClass('active').eq($index).addClass('active');
+	 		});
+
+
+
+	 	});
+
+	})(jQuery);
+
+```
