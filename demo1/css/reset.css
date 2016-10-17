@@ -1,0 +1,27 @@
+a,input{
+	-webkit-tap-highlight-color:rgba(0,0,0,0)!important;
+	tap-highlight-color:rgba(0,0,0,0)!important;
+}
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-text-size-adjust:100%!important;
+	text-size-adjust:100%!important;
+}
+html,body,div,p,a,h1,h2,h3,h4,h5,h6,span,b,ol,ul,li,b,button,code,pre{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font:inherit;
+	vertical-align:baseline;
+}
+html,body{
+	display:block;
+}
+body{
+	font-size:14px;
+	font-family:"microsoft yahei";
+	background-color:#fff;
+	color:#ccc;
+}
