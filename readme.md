@@ -36,8 +36,31 @@
 
 >> demo1.html
 
->> js
+>> js/
 
->> css
+>>> index.js
 
->> image
+>> css/
+
+>>> reset.css
+
+>>> index.css
+
+>> image/
+
+
+
+### 代码实现构思
+
+* html方面，首先是一个左右结构，然后鼠标hover上去的时候会显示对应的隐藏块。基于此，有两种dom构建方式,一：构建一个大div，在里面实现左边导航区域，然后hover层嵌套在导航里面的每个子标签里面，这个方法有个不好的地方就是，dom层次嵌套太深，容易出错，而且导航dom显得很臃肿，后期也比较难改。二：直接两个div，一个是导航，一个是hover显示区域，hover区域当然了是靠定位的实现的！这样我们容易实现代码的剥离，后期也较容易实现复用！所以我们采用第二种方式。两种方式的dom结构参考下面的图：
+
+方案一：
+![](https://github.com/woai30231/webSite_nav/blob/master/image/test_2.png)
+
+
+方案一：
+![](https://github.com/woai30231/webSite_nav/blob/master/image/test_3.png)
+
+* css方面，对于这种左右结构的页面，用float布局实现起来比较轻松，隐藏块不占用其它内容的面积，所以采用定位布局。
+
+* js方面 
