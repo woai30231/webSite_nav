@@ -70,4 +70,9 @@
 
 ### 页面重置样式
 
-* 一些html标签在各个浏览器里面是默认有一些浏览器样式的，但是我们为了后期方便统一处理，所以我们需要把这部分样式重写！请查阅[reset.css](https://github.com/woai30231/webSite_nav/blob/master/image/test_3.png)
+* 一些html标签在各个浏览器里面是默认有一些浏览器样式的，但是我们为了后期方便统一处理，所以我们需要把这部分样式重写！请查阅[reset.css](https://github.com/woai30231/webSite_nav/blob/master/demo1/css/reset.css)
+
+
+### html编码
+
+* 这部分不应该包含js代码，主要目的是为了保证页面在不支持js的页面里面也能正确显示，点击[这里](https://github.com/woai30231/webSite_nav/blob/master/demo1/demo1.html)可查看代码

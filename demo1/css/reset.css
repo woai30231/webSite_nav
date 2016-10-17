@@ -9,7 +9,7 @@ a,input{
 	-webkit-text-size-adjust:100%!important;
 	text-size-adjust:100%!important;
 }
-html,body,div,p,a,h1,h2,h3,h4,h5,h6,span,b,ol,ul,li,b,button,code,pre{
+html,body,div,p,a,h1,h2,h3,h4,h5,h6,span,b,ol,ul,li,b,button,code,pre,dl,dt,dd{
 	margin:0px;
 	padding:0px;
 	border:0px;
@@ -21,7 +21,11 @@ html,body{
 }
 body{
 	font-size:14px;
-	font-family:"microsoft yahei";
+	font-family:"Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
 	background-color:#fff;
 	color:#ccc;
+}
+a{
+	text-decoration:none;
+	color:inherit;
 }

@@ -1,0 +1,143 @@
+.NAV_wrapper{
+	font-size:12px;
+	color:#666;
+	position:relative;
+	width:1210px;
+	margin:50px auto 10px;
+}
+.border-box{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.NAV_wrapper:after,.i_top .t_b_nav:after,.it ._box:after{
+	display:block;
+	height:0px;
+	overflow:hidden;
+	visibility:hidden;
+	clear:both;
+	content:'';
+}
+.NAV_wrapper .navigation{
+	float:left;
+	width:210px;
+	border:1px solid #b61d1d;
+	border-right:0px;
+	position:relative;
+	z-index:100;
+}
+.navigation > ul{
+	width:100%;
+	list-style:none;
+}
+.navigation > ul  li{
+	display:block;
+	width:100%;
+	line-height:31px;
+	position:relative;
+	background-color:#b61d1d;
+	color:#fff;
+}
+.navigation > ul  li:hover{
+	background-color:#fff;
+	color:#6b1d1d;
+}
+.p_icon{
+	position:absolute;
+	right:8px;
+	top:0px;
+	display:block;
+	color:#fff;
+}
+.nav-title a:hover{
+	text-decoration:underline;
+}
+.navigation .nav-title{
+	padding:0px 10px;
+	font-size:14px;
+}
+.NAV_wrapper .hide_block{
+	position:absolute;
+	left:209px;
+	top:0px;
+	border:1px solid #b61d1d;
+	width:1001px;
+	// height:700px;
+	z-index:99;
+	background-color:#fff;
+	display:none;
+}
+.hide_block .h_item{
+	padding:30px 20px;
+	padding-bottom:10px;
+	display:none;
+}
+.h_item .i_top{
+	color:#fff;
+	overflow:hidden;
+}
+.i_top .t_b_nav{
+	margin-right:-10px;
+}
+.t_b_nav .c_nav{
+	float:left;
+	line-height:24px;
+	background-color:#7c7171;
+	position:relative;
+	padding-left:8px;
+	padding-right:32px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	margin-right:10px;
+}
+.t_b_nav .c_nav:hover{
+	background-color:#b61d1d;
+}
+.c_nav .p{
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:24px;
+	height:24px;
+	background-color:#5c5251;
+	text-align:center;
+}
+.t_b_nav .c_nav:hover .p{
+	background-color:#a10000;
+}
+.i_bottom .it{
+	padding:10px 0px;
+}
+.it .dt{
+	float:left;
+	text-align:right;
+	width:54px;
+	padding:9px 0px!important;
+}
+.dt > .p{
+	padding:0px 5px;
+}
+.it .dd,.it .dt{
+	padding:6px 0px;
+}
+.it .dt:hover{
+	color:#c00;
+}
+.it .dd{
+	width:895px;
+	float:right;
+	border-bottom:1px solid #e0e0e0;
+}
+.dd > a{
+	margin:4px 0px;
+	padding:0px 8px;
+	float:left;
+	border-left:1px solid #e0e0e0;
+}
+.dd > a:hover{
+	color:#c00;
+}
+.it ._box{
+	line-height:16px;
+}
