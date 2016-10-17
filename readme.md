@@ -76,3 +76,14 @@
 ### html编码
 
 * 这部分不应该包含js代码，主要目的是为了保证页面在不支持js的页面里面也能正确显示，点击[这里](https://github.com/woai30231/webSite_nav/blob/master/demo1/demo1.html)可查看代码
+
+
+### js实现切换效果
+
+* 原理就是for循环，当选项hover的时候，遍历所有的隐藏框，全部设置display:none样式，然后获取当前hover选项的索引，然后找到对应的隐藏框，设置display:block，代码如下：
+
+``` javascript
+
+	
+
+```

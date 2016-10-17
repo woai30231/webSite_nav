@@ -38,7 +38,7 @@
 	background-color:#b61d1d;
 	color:#fff;
 }
-.navigation > ul  li:hover{
+.navigation > ul  li:hover,.navigation > ul  li.active{
 	background-color:#fff;
 	color:#6b1d1d;
 }
